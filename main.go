@@ -5,11 +5,10 @@ package main
 
 import (
 	"rocket/cmd"
-	"rocket/service"
 )
 
 func main() {
 	//init K8s clientset
-	service.K8s.Init()
+	//service.K8s.Init()
 	cmd.Execute()
 }

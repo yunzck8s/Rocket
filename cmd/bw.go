@@ -20,7 +20,7 @@ var ctx, cancel = context.WithCancel(context.Background())
 // bwCmd represents the bw command
 var bwCmd = &cobra.Command{
 	Use:   "bw",
-	Short: "A brief description of your command",
+	Short: "Get traffic for network interface",
 	Long: `A longer description that spans multiple lines and likely contains examples
 and usage of using your command. For example:
 
